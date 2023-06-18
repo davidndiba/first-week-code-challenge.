@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Net Salary Calculator</title>
+</head>
+
+<body>
+    <header id="head">
+        <h1 class="main-header">Net Salary Calculator</h1>
+            <script>
+                const basic_salary = prompt ("Enter your Basic Salary");
+                const house_rent = prompt ("Enter your house rent allowance");
+                const medical_allowances = prompt ("Enter your medical allowance");
+                let gross_salary = ("basic_salary" + "house_rent" + "medical_allowance")
+                let tax = gross_salary;
+                let net_salary =gross_salary - tax;
+                document.write("<br>Your net salary is \t"(net_salary))
+                document.write("<br>Tax deducted on basic gross salary \t"(tax))
+            </script>
+            
+        </nav>
+
+    </header>
+</body>
+
+</html>
